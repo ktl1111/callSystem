@@ -1,0 +1,7 @@
+.container{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    /*background-color: yellow;*/
+}

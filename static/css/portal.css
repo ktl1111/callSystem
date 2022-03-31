@@ -1,0 +1,37 @@
+button {
+    margin: 2%;
+    padding: 2%;
+}
+.num {
+    margin-right: 10px;
+    padding: 10px;
+    color: #E0E0E0;
+    font: 25px Arial, sans-serif;
+}
+.numChoose {
+margin-right: 10px;
+padding: 10px;
+color: #009933;
+text-decoration-style: dashed;
+font: 25px Arial, sans-serif;
+}
+.form {
+    display: inline-flex;
+    /*background-color: aquamarine;*/
+}
+
+#number #onspot_number{
+    font-size: 40px;
+    width: 198px;
+    height: 20%;
+}
+/*disable input type text up/down arrow*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*h1 {*/
+/*    margin-bottom: 60px;*/
+/*}*/

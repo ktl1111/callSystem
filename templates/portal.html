@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/portal.css' %}" >
+{% endblock %}
+{% block content %}
+{% if user.is_authenticated %}
+<h1>管理後台 <small>(<a href="{% url 'logout' %}">登出</a>)</small></h1>
+{% endif %}
+
+<!--form1: 線上-->
+<form action="{% url 'portal' %}" method="POST" class="form" id="numberForm2">
+   {% csrf_token %}
+    <div class="form-group">
+        <label for="number">線上叫號：</label>
+        <input required type="number" id="number" name="number" class="form-control"  onkeyup="saveValue(this);"/>
+
+        <br/>
+    <input type="submit" value="送出">
+
+        <hr/>
+    </div>
+</form>
+</br>
+<!--form2: 現場-->
+<form action="{% url 'portal_onspot' %}" method="POST" class="form" id="numberForm3">
+   {% csrf_token %}
+  <div class="form-group">
+    <label for="onspot_number">現場叫號：</label><br>
+    <input required type="number" id="onspot_number" name="onspot_number" class="form-control" onkeyup="saveValue(this);"/>
+
+    <br/>
+    <input type="submit" value="送出">
+  </div>
+</form>
+
+<br/>
+<div class="row">
+    <div class="col" id="show" style="display: none">
+{#        <span class="" ></span>#}
+    </div>
+</div>
+<br/>
+<!--先hide起來 style="display: none"-->
+<div class="row" style="display: none">
+{% for num in num_list %}
+        {{ num.num }}
+{% endfor %}
+</div>
+<div style="color: red; display: none" id="num_sent">{{ num.num }}</div>
+
+
+<script type="text/javascript" src="{% static 'js/portal.js' %}"/>
+
+</script>
+
+{% endblock %}
