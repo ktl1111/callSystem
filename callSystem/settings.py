@@ -10,9 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 import os
+from importlib import reload
 from pathlib import Path
 import django_heroku
-
+import sys
 LOGIN_REDIRECT_URL = '/call/portal'
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -25,7 +26,7 @@ STATICFILES_DIRS = [
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-#-e*2pk+3tbmki0egzl!bv(j*nzd@fzu8s-yuzw$=brhzk@3fg'
+# SECRET_KEY = 'django-insecure-#-e*2pk+3tbmki0egzl!bv(j*nzd@fzu8s-yuzw$=brhzk@3fg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -130,5 +131,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 django_heroku.settings(locals())
