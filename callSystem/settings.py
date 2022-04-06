@@ -132,7 +132,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-reload(sys)
-sys.setdefaultencoding('utf-8')
+# reload(sys)
+# sys.getdefaultencoding('utf-8')
 
 django_heroku.settings(locals())
