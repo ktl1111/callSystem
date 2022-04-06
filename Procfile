@@ -1,1 +1,1 @@
-web:gunicorn callSystem.wsgi
+heroku ps:scale web=1
