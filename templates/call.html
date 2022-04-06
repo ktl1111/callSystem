@@ -24,12 +24,6 @@
      <span style="margin-top: 90px;">現在時間：</span> <span id="time"></span>
      <div style="margin-top:5px;"><a href="{% url 'login' %}" class="top-menu">管理員登入<span class="glyphicon glyphicon-lock"></span></a></div>
 
-    <script>
-    const today = new Date();
-    const currentHours = ("0" + today.getHours()).slice(-2);
-    const currentMinutes = ("0" + today.getMinutes()).slice(-2);
-    const time =currentHours +":"+ currentMinutes;
-    p = document.getElementById("time")
-    p.innerHTML = time
-    </script>
+    <script type="text/javascript" src="{% static 'js/call.js' %}"/>
+
 {% endblock %}

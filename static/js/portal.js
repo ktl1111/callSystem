@@ -46,34 +46,5 @@ function getSavedValue (v){
     }
     return localStorage.getItem(v);
 }
-// localStorage.clear();
-/*
-//increase input number by 1
-document.querySelectorAll("[id='after']").addEventListener("click", increase);
-function increase(){
-    let origin = parseInt(getSavedValue("number"), 10);
-    let origin_onspot = parseInt(getSavedValue("onspot_number"), 10);
-    localStorage.setItem("number", origin+1);
-    localStorage.setItem("onspot_number", origin_onspot+1);
-    // set the value to this input
-    document.getElementById("number").value = getSavedValue("number");
-    document.getElementById("onspot_number").value = getSavedValue("onspot_number");
-   return "";
-}
-//decrease input number by 1
-const bfore = document.querySelectorAll("[id='before']");
-for (let i = 0; i < bfore.length; i++) {
-    bfore[i].addEventListener("click", decrease);
-};
 
-function decrease(){
-    let origin = parseInt(getSavedValue("number"), 10);
-    let origin_onspot = parseInt(getSavedValue("onspot_number"), 10);
-    localStorage.setItem("number", origin-1);
-    localStorage.setItem("onspot_number", origin_onspot-1);
-    // set the value to this input
-    document.getElementById("number").value = getSavedValue("number");
-    document.getElementById("onspot_number").value = getSavedValue("onspot_number");
-   return "";
-}
-*/
+// localStorage.clear();
