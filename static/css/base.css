@@ -12,7 +12,7 @@ body{
     background-size: 250px 100px;
     background-repeat: no-repeat;
     background-position: center top;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     height: 9px; /*100vh*/
     margin-top: 66px;
 
