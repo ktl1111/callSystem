@@ -5,8 +5,7 @@
     p = document.getElementById("time")
     p.innerHTML = time
 
-    const container = document.querySelector("#container");
-    container.addEventListener('load', e => {
-    //prevent default action
-     e.preventDefault();
-    });
+ //reload page
+setInterval(function(){
+   window.location.reload();
+},3000);
