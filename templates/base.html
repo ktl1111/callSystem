@@ -29,6 +29,15 @@
 </div>
 </div>
 </div>
-    <script type="text/javascript" src="{% static 'js/call.js' %}"/>
+{#    <script type="text/javascript" src="{% static 'js/call.js' %}"/>#}
+<script>
+    const container = document.querySelector("#container");
+        container.addEventListener('load', e => {
+        //prevent default action
+         e.preventDefault();
+        })
+</script>
+
+
 </body>
 </html>
