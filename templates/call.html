@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block head %}
-   <meta http-equiv="refresh" content="3">
+{#   <meta http-equiv="refresh" content="3">#}
    <link rel="stylesheet" href="{% static 'css/call.css' %}">
 {% endblock %}
 {% block content %}
@@ -24,6 +24,10 @@
      <span style="margin-top: 90px;">現在時間：</span> <span id="time"></span>
      <div style="margin-top:5px;"><a href="{% url 'login' %}" class="top-menu">管理員登入<span class="glyphicon glyphicon-lock"></span></a></div>
 
-    <script type="text/javascript" src="{% static 'js/call.js' %}"/>
-
+{#    <script type="text/javascript" src="{% static 'js/call.js' %}"/>#}
+<script type="text/javascript">
+    setInterval(function(){
+       window.location.reload();
+    },3000);
+</script>
 {% endblock %}
