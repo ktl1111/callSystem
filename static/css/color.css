@@ -1,0 +1,15 @@
+    body{
+        /*background-color: red;*/
+        background-image: url("/static/images/logo_CHC.png");
+        background-size: 300px 120px;
+        background-repeat: no-repeat;
+        background-position: center top;
+        /*background-attachment: fixed;*/
+        height: 9px; /*100vh*/
+        margin-top: 68px;
+        color: red;
+    }
+    html, body{
+        height: 100%;
+        margin-left: -36px;
+    }
