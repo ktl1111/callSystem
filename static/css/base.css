@@ -18,7 +18,7 @@ body{
 }
 html, body{
     height: 100%;
-    margin-left: -36px;
+    /*margin-left: -36px;*/
 }
 
 @media (max-width: 1080px) {
@@ -31,6 +31,7 @@ html, body{
         /*background-attachment: fixed;*/
         height: 9px; /*100vh*/
         margin-top: 68px;
+        color: red;
     }
     html, body{
         height: 100%;
