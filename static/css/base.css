@@ -14,7 +14,6 @@ body{
     /*background-attachment: fixed;*/
     height: 9px; /*100vh*/
     margin-top: 68px;
-    background-color: lightcoral;
 }
 html, body{
     height: 100%;
@@ -26,17 +25,17 @@ html, body{
 @media only screen and (min-width: 540px){
     body{
     background-image: url("/static/images/logo_CHC.png");
-    background-size: 620px 260px;
+    background-size: 600px 240px;
     background-repeat: no-repeat;
     background-position: center top;
     /*background-attachment: fixed;*/
     height: 9px; /*100vh*/
-    margin-top: 68px;
+    margin-top: 30px;
     }
 
     html, body{
         height: 100%;
-        margin-left: -36px;
+        margin-left: -90px;
     }
 /*.container{*/
 /*    justify-content: center;*/
@@ -50,8 +49,9 @@ html, body{
         width: 100%;
         justify-content: center;
         background-color: lightblue;
-        margin-top: 200px;
-        margin-left: 350px;
+        margin-top: 160px;
+        margin-left: 300px;
+        margin-right: 300px;
     }
 }
 
