@@ -31,11 +31,12 @@ html{
 @media only screen and (min-width: 540px){
     body{
     background-image: url("/static/images/logo_CHC.png");
-    background-size: 588px 240px;
+    background-size: 300px 120px;
     background-repeat: no-repeat;
     background-position: center top;
     height: 9px; /*100vh*/
     margin-top: 60px;
+    margin-left: 8px;
     /*margin-left: 60px;*/
     }
 
