@@ -19,7 +19,7 @@ html, body{
     height: 100%;
     margin-left: 55px;
 }
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1920px){
     body{
     background-image: url("/static/images/logo_CHC.png");
     background-size: 620px 260px;
