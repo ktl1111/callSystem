@@ -3,8 +3,6 @@
     width: 100%;
     height: auto;
     display: inline-flex;
-    /*background-color: yellow;*/
-    /*background-color: lightgreen;*/
     margin-top: 90px;
 }
 
@@ -13,18 +11,22 @@ body{
     background-size: 250px 100px;
     background-repeat: no-repeat;
     background-position: center top;
-    /*background-attachment: fixed;*/
     height: 9px; /*100vh*/
-    margin-top: -60px;
-    /*background-color: orange;*/
+    margin-top: -40px;
 }
 html, body{
     height: 100%;
-    margin-left: 55px;
+    margin-left: -10px;
 }
-/*.row{*/
-/*    background-color: yellow;*/
-/*}*/
+html{
+        margin-top: -20px;
+        /*background-color: lightblue;*/
+    }
+.row{
+    margin-left: -25px;
+    /*background-color: yellow;*/
+    text-align: center;
+}
 @media only screen and (min-width: 540px){
     body{
     background-image: url("/static/images/logo_CHC.png");

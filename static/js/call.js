@@ -6,18 +6,6 @@
     p.innerHTML = time
 
  //reload page
-// setInterval(function(){
-//    window.location.reload();
-// },9000);
-
-
-//
-//     setInterval(function(){
-//    window.location.reload();
-// },3000);
-
-window.screen.height; //screen height
-window.screen.width; //screen width
-
-//For example, 1024x768:
-alert(window.screen.width+"x"+window.screen.height);
+setInterval(function(){
+window.location.reload();
+},3000);
