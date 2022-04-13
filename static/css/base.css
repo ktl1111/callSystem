@@ -23,7 +23,7 @@ html, body{
 .row{
     background-color: yellow;
 }
-@media only screen and (min-width: 542px){
+@media only screen and (min-width: 541px){
     body{
     background-image: url("/static/images/logo_CHC.png");
     background-size: 620px 260px;
