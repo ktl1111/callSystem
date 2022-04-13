@@ -32,9 +32,10 @@ html{
     body{
     background-image: url("/static/images/logo_CHC.png");
     /*background-size: 680px 110px;*/
-    background-size: 380px 140px;
+    background-size: 330px 120px;
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: 56% 5%;
+    /*background-position: left top;*/
     height: 20px; /*100vh*/
     /*height: 9px; !*100vh*!*/
     margin-top: 60px;
