@@ -54,9 +54,9 @@ html{
     .row{
         width: 540px;
         text-align: center;
-        padding-top: 20px;
+        /*padding-top: -30px;*/
         padding-left: 25px;
-        /*margin-top: 20px;*/
+        margin-top: -50px;
         /*background-color: lightblue;*/
         /*margin-top: 80px;*/
         /*margin-left: 450px;*/
