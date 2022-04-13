@@ -4,6 +4,8 @@
     height: auto;
     display: inline-flex;
     /*background-color: yellow;*/
+    /*background-color: lightgreen;*/
+    margin-top: 90px;
 }
 
 body{
@@ -13,7 +15,8 @@ body{
     background-position: center top;
     /*background-attachment: fixed;*/
     height: 9px; /*100vh*/
-    margin-top: 68px;
+    margin-top: -60px;
+    background-color: orange;
 }
 html, body{
     height: 100%;
@@ -50,7 +53,7 @@ html, body{
         width: 100%;
         justify-content: center;
         background-color: lightblue;
-        margin-top: 160px;
+        /*margin-top: 80px;*/
         margin-left: 500px;
         margin-right: 300px;
     }
