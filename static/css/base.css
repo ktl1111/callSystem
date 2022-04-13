@@ -31,15 +31,14 @@ html, body{
     background-size: 588px 240px;
     background-repeat: no-repeat;
     background-position: center top;
-    /*background-attachment: fixed;*/
     height: 9px; /*100vh*/
-    margin-top: 55px;
+    margin-top: 60px;
     /*margin-left: 60px;*/
     }
 
     html, body{
         height: 100%;
-        margin-left: -70px;
+        margin-left: -60px;
         /*background-color: lightblue;*/
     }
     html{
@@ -49,7 +48,6 @@ html, body{
 
     .row{
         width: 540px;
-        /*justify-content: center;*/
         text-align: center;
         /*background-color: lightblue;*/
         /*margin-top: 80px;*/
