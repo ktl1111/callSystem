@@ -24,9 +24,9 @@
 @media only screen and (min-width: 540px){
     #border{
     border-radius: 2.5%;
-    width: 480px;
-    height: 300px;
-    padding: 12px;
+    width: 420px;
+    height: 250px;
+    padding: 10px;
     text-align: center;
     background: #000000;
     border: 5px solid #006446;
@@ -34,11 +34,11 @@
     .call{
         color: #ff0000;
         text-align: center;
-        font-size: 220px;
+        font-size: 180px;
         font-family: 'Anton', sans-serif;
     }
     .title{
-        font-size: 120px;
+        font-size: 95px;
         margin-left: 8px;
     }
     .note{
