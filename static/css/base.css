@@ -16,7 +16,7 @@ body{
     /*background-attachment: fixed;*/
     height: 9px; /*100vh*/
     margin-top: -60px;
-    background-color: orange;
+    /*background-color: orange;*/
 }
 html, body{
     height: 100%;
