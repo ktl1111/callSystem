@@ -6,6 +6,7 @@
     text-align: center;
     background: #000000;
     border: 2.5px solid #006446;
+    margin-left: 96px;
 }
 .call{
     color: #ff0000;
@@ -20,12 +21,17 @@
     margin-left: -90px;
     text-aligns: center;
 }
-
+/* #time_style{*/
+/*    font-size: 14px;*/
+/*    margin-top: 22px;*/
+/*    width: 320px;*/
+/*    text-aligns: center;*/
+/*}*/
 @media only screen and (min-width: 540px){
     #border{
     border-radius: 2.5%;
-    width: 420px;
-    height: 150px;
+    width: 400px;
+    height: 180px;
     padding: 10px;
     text-align: center;
     background: #000000;
@@ -34,7 +40,7 @@
     .call{
         color: #ff0000;
         text-align: center;
-        font-size: 100px;
+        font-size: 95px;
         font-family: 'Anton', sans-serif;
     }
     .title{
@@ -43,10 +49,10 @@
     }
     .note{
         padding-top: 10px;
-        font-size: 24px;
+        font-size: 20px;
         margin-top: 20px;
         width: 600px;
-        margin-left: -60px;
+        margin-left: 15px;
         text-align: center;
     }
 }

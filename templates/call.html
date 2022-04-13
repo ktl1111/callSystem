@@ -26,9 +26,11 @@
 {#    {{ num.stamp }}#}
 
     <br/>
-     <span style="margin-top: 90px;">現在時間：</span> <span id="time"></span>
+    <div id="time_style">
+     <span style="font-size: 20px;">現在時間：</span> <span style="font-size: 20px;" id="time"></span>
+{#        <span style="margin-top: 90px;">現在時間：</span> <span ></span>#}
      <div style="margin-top:5px;"><a href="{% url 'login' %}" class="top-menu">管理員登入<span class="glyphicon glyphicon-lock"></span></a></div>
-
+    </div>
 
 {#    <script type="text/javascript" src="{% static 'js/portal.js' %}"/>#}
 
