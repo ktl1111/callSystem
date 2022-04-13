@@ -21,7 +21,7 @@
     text-aligns: center;
 }
 
-@media only screen and (min-width: 545px){
+@media only screen and (min-width: 542px){
     #border{
     border-radius: 2.5%;
     width: 480px;
