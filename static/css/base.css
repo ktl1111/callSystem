@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url("/static/images/logo_CHC.png");
+    /*background-image: url("/static/images/logo_CHC.png");*/
     background-size: 250px 100px;
     background-repeat: no-repeat;
     background-position: center top;
@@ -31,7 +31,6 @@ html{
 @media only screen and (min-width: 540px){
     body{
     /*background-image: url("/static/images/logo_CHC.png");*/
-    border-color: red;
     background-size: 480px 200px;
     background-repeat: no-repeat;
     background-position: center top;
