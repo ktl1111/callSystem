@@ -30,7 +30,7 @@ html{
 /*for lookr app screen 540x1080px*/
 @media only screen and (min-width: 540px){
     body{
-    background-image: url("/static/images/logo_CHC.png");
+    /*background-image: url("/static/images/logo_CHC.png");*/
     border-color: red;
     background-size: 480px 200px;
     background-repeat: no-repeat;
