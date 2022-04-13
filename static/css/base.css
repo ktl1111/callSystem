@@ -7,7 +7,7 @@
 }
 
 body{
-    /*background-image: url("/static/images/logo_CHC.png");*/
+    background-image: url("/static/images/logo_CHC.png");
     background-size: 250px 100px;
     background-repeat: no-repeat;
     background-position: center top;
@@ -30,19 +30,21 @@ html{
 /*for lookr app screen 540x1080px*/
 @media only screen and (min-width: 540px){
     body{
-    /*background-image: url("/static/images/logo_CHC.png");*/
-    background-size: 480px 200px;
+    background-image: url("/static/images/logo_CHC.png");
+    /*background-size: 680px 110px;*/
+    background-size: 420px 160px;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: left top;
     height: 9px; /*100vh*/
     margin-top: 60px;
     margin-left: 8px;
     /*margin-left: 60px;*/
+/*   background-color: lightblue;*/
     }
 
     html, body{
         height: 100%;
-        margin-left: -60px;
+        margin-left: -20px;
         /*background-color: lightblue;*/
     }
     html{
