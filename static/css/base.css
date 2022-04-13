@@ -27,6 +27,7 @@ html{
     /*background-color: yellow;*/
     text-align: center;
 }
+/*for lookr app screen 540x1080px*/
 @media only screen and (min-width: 540px){
     body{
     background-image: url("/static/images/logo_CHC.png");
@@ -51,12 +52,19 @@ html{
     .row{
         width: 540px;
         text-align: center;
+        padding-top: 20px;
+        padding-left: 20px;
+        /*margin-top: 20px;*/
         /*background-color: lightblue;*/
         /*margin-top: 80px;*/
         /*margin-left: 450px;*/
         /*margin-right: 300px;*/
-
     }
+    .title{
+        padding-left: 50px;
+        /*text-align: center;*/
+    }
+
 }
 
 /*@import url(color.css) screen and (min-width: 1000px);*/
