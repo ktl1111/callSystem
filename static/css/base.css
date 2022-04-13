@@ -31,7 +31,8 @@ html{
 @media only screen and (min-width: 540px){
     body{
     background-image: url("/static/images/logo_CHC.png");
-    background-size: 300px 120px;
+    border-color: red;
+    background-size: 480px 200px;
     background-repeat: no-repeat;
     background-position: center top;
     height: 9px; /*100vh*/
