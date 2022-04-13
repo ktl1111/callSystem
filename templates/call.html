@@ -6,17 +6,17 @@
 
 {% endblock %}
 {% block content %}
-<h1>線上叫號</h1>
+<h1 class="title">線上叫號</h1>
 {% for num in num_list %}
 <div id="border" class="md-6">
     <span class="call" style="margin-bottom: 10px;"> {{ num.num }} </span>
-    <div style="font-size: 14px;margin-top: 20px; width: 320px; margin-left: -90px;">為避免群聚，請依<strong> &uarr; </strong>叫號數字往<strong style="color:red; text-decoration: underline; text-decoration-color:red;text-decoration-thickness: 3px;"> 後5號內 </strong>再前往。<br/> 例：顯示12號，請13-17號至現場預備。</div>
 </div>
+    <div class="note" >為避免群聚，請依<strong> &uarr; </strong>叫號數字往<strong style="color:red; text-decoration: underline; text-decoration-color:red;text-decoration-thickness: 3px;"> 後5號內 </strong>再前往。<br/> 例：顯示12號，請13-17號至現場預備。</div>
 {% endfor %}
 <br/>
 <br/>
 <br/>
-<h1>現場叫號</h1>
+<h1 class="title">現場叫號</h1>
 {% for onspotNum in onspotNum_list %}
 <div id="border" class="md-6">
     <span class="call" style="margin-bottom: 10px;"> {{ onspotNum.onspot_num }} </span>

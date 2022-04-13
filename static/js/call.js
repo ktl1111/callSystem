@@ -6,6 +6,12 @@
     p.innerHTML = time
 
  //reload page
-setInterval(function(){
-   window.location.reload();
-},3000);
+// setInterval(function(){
+//    window.location.reload();
+// },9000);
+
+
+//
+//     setInterval(function(){
+//    window.location.reload();
+// },3000);

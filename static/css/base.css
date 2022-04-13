@@ -17,12 +17,12 @@ body{
 }
 html, body{
     height: 100%;
-    /*margin-left: -36px;*/
+    margin-left: 55px;
 }
 @media only screen and (min-width: 1000px){
     body{
     background-image: url("/static/images/logo_CHC.png");
-    background-size: 250px 100px;
+    background-size: 620px 260px;
     background-repeat: no-repeat;
     background-position: center top;
     /*background-attachment: fixed;*/
@@ -30,10 +30,25 @@ html, body{
     margin-top: 68px;
     }
 
-html, body{
-    height: 100%;
-    margin-left: -36px;
-}
+    html, body{
+        height: 100%;
+        margin-left: -36px;
+    }
+/*.container{*/
+/*    justify-content: center;*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    !*display: inline-flex;*!*/
+/*    background-color: yellow;*/
+/*    margin-top: 200px;*/
+/*}*/
+    .row{
+        width: 100%;
+        justify-content: center;
+        /*background-color: lightblue;*/
+        margin-top: 200px;
+        margin-left: 350px;
+    }
 }
 
 /*@import url(color.css) screen and (min-width: 1000px);*/
