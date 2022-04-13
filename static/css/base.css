@@ -14,10 +14,14 @@ body{
     /*background-attachment: fixed;*/
     height: 9px; /*100vh*/
     margin-top: 68px;
+    background-color: lightcoral;
 }
 html, body{
     height: 100%;
     margin-left: 55px;
+}
+.row{
+    background-color: yellow;
 }
 @media only screen and (min-width: 1920px){
     body{
